@@ -12,7 +12,7 @@ app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "images")));
 console.log("Serving images from:", path.join(__dirname, "images"));
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 // ✅ Ensure the database folder exists
 const dbFolder = path.join(__dirname, "database");
