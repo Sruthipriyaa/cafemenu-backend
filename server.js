@@ -43,7 +43,7 @@ db.serialize(() => {
 
 // ✅ Your menu items
 const menu = [
-  { name: "Cappuccino", price: 150, img: "/images/cappuccino.jpg" },
+{ name: "Cappuccino", price: 150, img: "/images/Cappuccino.jpg" },
   { name: "Latte", price: 200, img: "/images/latte.jpg" },
   { name: "Espresso", price: 100, img: "/images/espresso.jpg" },
   { name: "Mocha", price: 190, img: "/images/mocha.jpg" },
